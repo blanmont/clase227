@@ -1,0 +1,86 @@
+body {
+	background: 
+	color: white;
+     }
+/* selector de identificación */
+	/*#identificacion{
+		border: 1px;
+		background: red;
+	}*/
+	.caja1 div{ /* dividiendo cada caja */
+		background: red;
+		color: white;
+		margin: 20px;    /* borde ancho tipo */
+	
+	}
+
+	.dis_none {
+		display:none; /* oculta */
+	    }
+
+	.dis_block{
+			display:block; /*bloque*/
+	    }
+	
+	.dis_inline{
+			display:inline; /* linea */
+	    }
+	
+	.dis_inline_block{	
+		display:inline-block;
+		width: 100px;
+	 /* respeta ancho y contenido */
+      }
+
+      .comodin{
+      		width: 100px;
+      		height: 100px;
+      }
+
+      .dis_none{
+      	display: inline-block;
+      	width: 100px;
+      }
+
+      .over{
+      	width:100px;
+      	height: 100px;
+      }
+
+      .hidden{
+      	overflow:hidden;
+      }
+
+      .auto{   /*scroll*/
+      	overflow: auto;
+      	   }
+
+      .col6{
+      	float: left;
+      	width:50%;
+      	background: red;
+      }	   
+
+	  .col12{
+	  	float: left;
+      	width:60%;
+      	background: blue;
+      }	   
+      
+      .row{
+      	position: relative;
+      }	   
+
+      .col3{
+      	float: left;
+      	width:40%;
+      	background: yellow;
+      }	   
+
+      .div{
+      	justify-content: center; /*justify-align*/
+      	align-items: center; /*|start|end*/ 
+      	display: flex;
+      }
+
+
